@@ -1,0 +1,22 @@
+h1{
+        padding-top: 130px;
+        color: #fff;
+        text-align: center;
+      }
+      
+      .header-logo{
+        font-size: 30px !important;
+        color: #fff;
+      }
+      
+      .header-color{
+        background-color: #3DBFFF;
+      }
+      
+      .fa-bars{
+        color: #83E7FF;
+      }
+      
+      .nav-link{
+        color: #fcfcfc;
+      }
