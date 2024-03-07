@@ -1,11 +1,12 @@
 import React from "react";
+
 import "./App.css"
-import emily from "./images/image-header.jpg"
+import header_image from "./images/image-header.jpg"
 
 export default function Header(){
     return (
         <div className="Header header-color">
-            <nav className="navbar navbar-expand-lg header-color fixed-top">
+            <nav className="navbar navbar-expand-lg bg-transparent bg-opacity-75 fixed-top">
   <div className="container-fluid">
     <a className="navbar-brand" href="/">
         <span className="header-logo">sunnyside</span>
@@ -27,7 +28,8 @@ export default function Header(){
   </div>
 </nav>
 <h1>WE ARE CREATIVES</h1>
-<img src={emily} alt="smiley face" className="img-fluid"/>
+<img src={header_image} alt="smiley face" className="img-fluid"/>
+    
         </div>
     )
 }
