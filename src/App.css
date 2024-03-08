@@ -1,14 +1,17 @@
+:root{
+  --barlow-font: "Barlow", sans-serif;
+  --fraunces-font: "Fraunces", serif;
+}
+
 h1{ padding-top: 280px;
 color: #fff;
 text-align: center;
+font-family: var(--fraunces-font);
+font-weight: 900;
+font-size: 60px;
 }
       
-.header-logo{
- font-size: 30px !important;
-color: #e9e1e1;
-
- }
-      
+ 
 .header-color{
   background-color: #3DBFFF;
 }
@@ -31,4 +34,73 @@ color: #e9e1e1;
 
 .green-bg{
   background-color: #A0DDCE !important;
+}
+
+.Services h3{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: var(--fraunces-font);
+  font-weight: 900;
+}
+
+.Services small{
+  font-size: 12px;
+  font-weight: 300;
+  font-family: var(--barlow-font);
+}
+
+.Services .writeup{
+  color: #79787c;
+}
+
+.Services a{
+  text-decoration-line: none;
+  cursor: pointer;
+  font-family: var(--fraunces-font);
+  font-weight: 900;
+}
+
+.Services a:hover{
+  text-decoration-line: underline;
+  text-decoration-thickness: 5px;
+  
+}
+
+.graphic{
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.graphic h3{
+  font-size: 14px;
+}
+
+.graphic small{
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.graphic-design{
+  color: hsl(167, 40%, 24%);
+}
+
+.photography{
+  color: hsl(198, 62%, 26%);
+}
+
+.services-writeup a{
+  font-size: 10px;
+  padding-top: 10px;
+  color: #050505;
+}
+
+.pink-link{
+  display: block;
+  text-decoration-color: #FD7F6E;
+  
+}
+
+.yellow-link{
+  display: block;
+  text-decoration-color: #FED303;
 }

@@ -2,14 +2,17 @@ import React from "react";
 
 import "./App.css"
 import header_image from "./images/image-header.jpg"
+import logo from "./images/logo.svg"
 
 export default function Header(){
     return (
-        <div className="Header header-color">
+        <div className="Header header-color container-fluid">
             <nav className="navbar navbar-expand-lg bg-transparent bg-opacity-75 fixed-top">
   <div className="container-fluid">
     <a className="navbar-brand" href="/">
-        <span className="header-logo">sunnyside</span>
+        <span className="header-logo">
+        <img src={logo} alt="sunnyside logo" className="img-fluid logo"/>
+        </span>
     </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon">
