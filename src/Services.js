@@ -11,7 +11,7 @@ export default function Services() {
         <div className="Services container-fluid">
             <div className="row">
                 <div className="col-sm-6 p-0">
-                    <div className="services-writeup p-4">
+                    <div className="services-writeup">
                         <div className="container-fluid p-5">
                         <h3>Transform your brand</h3>
                         <small className="writeup">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</small>
@@ -23,7 +23,7 @@ export default function Services() {
                 <div className="col-sm-6 p-0 yellow-bg"><img src={egg_img} alt="white egg on a yellow background" className="img-fluid"/></div>
                 <div className="col-sm-6 p-0 pink-bg"><img src={pink_cup} alt="pink cup" className="img-fluid"/></div>
                 <div className="col-sm-6 p-0">
-                <div className="services-writeup p-4">
+                <div className="services-writeup">
                 <div className="container-fluid p-5">
                         <h3>Stand out to the right audience</h3>
                         <small className="writeup">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places.</small>

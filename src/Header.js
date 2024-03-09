@@ -3,6 +3,7 @@ import React from "react";
 import "./App.css"
 import header_image from "./images/image-header.jpg"
 import logo from "./images/logo.svg"
+import icon_arrow from "./images/icon-arrow-down.svg"
 
 export default function Header(){
     return (
@@ -11,7 +12,7 @@ export default function Header(){
   <div className="container-fluid">
     <a className="navbar-brand" href="/">
         <span className="header-logo">
-        <img src={logo} alt="sunnyside logo" className="img-fluid logo"/>
+        <img src={logo} alt="sunnyside logo" className="img-fluid"/>
         </span>
     </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,8 +32,9 @@ export default function Header(){
   </div>
 </nav>
 <h1>WE ARE CREATIVES</h1>
+
 <img src={header_image} alt="smiley face" className="img-fluid"/>
-    
+  
         </div>
     )
 }

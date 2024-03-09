@@ -29,7 +29,8 @@ font-size: 60px;
 }
 
 .pink-bg{
-  background: linear-gradient(#FD8070, #FD7E71, #FC7062, #FD7867, #FD7664, #FD7163, #FD6D60, #FD6D60) !important;
+  /* background: linear-gradient(#FD7D6D) !important; */
+  background-color: #FD7D6D;
 }
 
 .green-bg{
