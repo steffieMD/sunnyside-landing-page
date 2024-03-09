@@ -125,6 +125,7 @@ letter-spacing: 10px;
   font-family: var(--barlow-font);
   color: #79787c;
   font-size: 8px;
+  padding-bottom: 30px;
 }
 
 .Testimonials small{
