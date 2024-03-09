@@ -7,7 +7,7 @@ import img_jennie from "./images/image-jennie.jpg";
 export default function Testimonials() {
   return (
     <div className="Testimonials p-5">
-      <div className=" container p-5">
+      <div className=" container ">
         <h4>CLIENT TESTIMONIALS</h4>
 
         <div className="row">
