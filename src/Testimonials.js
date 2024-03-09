@@ -11,7 +11,7 @@ export default function Testimonials() {
         <h4>CLIENT TESTIMONIALS</h4>
 
         <div className="row">
-          <div class="card col-sm-4 border border-0">
+          <div class="card col-sm-4 border border-0 mb-4">
             <img src={img_emily} alt="Emily R." className="client-image" />
             <div class="card-body">
               <small>
@@ -23,7 +23,7 @@ export default function Testimonials() {
             </div>
           </div>
 
-          <div class="card col-sm-4 border border-0">
+          <div class="card col-sm-4 border border-0 mb-4">
             <img src={img_thomas} alt="Thomas S." className="client-image" />
             <div class="card-body">
               <small>
