@@ -8,7 +8,8 @@ color: #fff;
 text-align: center;
 font-family: var(--fraunces-font);
 font-weight: 900;
-font-size: 60px;
+font-size: 50px;
+letter-spacing: 10px;
 }
       
  
@@ -105,3 +106,51 @@ font-size: 60px;
   display: block;
   text-decoration-color: #FED303;
 }
+
+.Testimonials{
+  text-align: center;
+}
+
+.Testimonials h4{
+  margin-bottom: 40px;
+  font-family: var(--fraunces-font);
+  color: #79787c;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+
+.Testimonials h6{
+  font-family: var(--barlow-font);
+  color: #79787c;
+  font-size: 6px;
+}
+
+.Testimonials small{
+  font-family: var(--barlow-font);
+  color: #1e1e1f;
+  font-size: 10px;
+  padding: 25px 0 25px 0;
+}
+
+.Testimonials strong{
+  font-family: var(--fraunces-font);
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.Testimonials strong,
+small,
+h6{
+  display: block;
+}
+
+
+.client-image{
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 50px
+}
+
