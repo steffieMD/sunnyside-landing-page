@@ -6,7 +6,8 @@ export default function Footer() {
     <div className="Footer">
       <div className="container  p-5 d-footer">
         <Logo fill={"hsl(167, 40%, 24%)"} stroke="hsl(167, 40%, 24%)" />
-        <div className="row container ps-5 pe-5 mt-3 mb-3 justify-content-center">
+
+        <div className="row  ps-5 pe-5 mt-3 mb-3 justify-content-center">
           <div className="col-4">
             <a href="/">About</a>
           </div>
@@ -40,7 +41,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <small className="pt-5 mt-5 footer-text">
+      <small className="mt-4 footer-text">
         This project was coded by{" "}
         <a href="https://github.com/steffieMD" target="_blank" rel="noreferrer">
           Steffie Metieh
