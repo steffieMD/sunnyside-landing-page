@@ -29,24 +29,28 @@ export default function Accordion() {
         Enable Multiple Selection
       </button>
       <div className="accordion container">
-        {data.map((dataItem) => (
-          <div className="item container" key={dataItem.id}>
-            <div
-              onClick={
-                enableMultipleSelection
-                  ? () => handleMultipleSelection(dataItem.id)
-                  : () => handleSingleSelection(dataItem.id)
-              }
-              className="title">
-              <h3 className="fs-5">{dataItem.question}</h3>
-              <span>+</span>
+        {data && data.length > 0 ? (
+          data.map((dataItem) => (
+            <div className="item container" key={dataItem.id}>
+              <div
+                onClick={
+                  enableMultipleSelection
+                    ? () => handleMultipleSelection(dataItem.id)
+                    : () => handleSingleSelection(dataItem.id)
+                }
+                className="title">
+                <h3 className="fs-5">{dataItem.question}</h3>
+                <span>+</span>
+              </div>
+              {selected === dataItem.id ||
+              multiple.indexOf(dataItem.id) !== -1 ? (
+                <div className="content small ">{dataItem.answer}</div>
+              ) : null}
             </div>
-            {selected === dataItem.id ||
-            multiple.indexOf(dataItem.id) !== -1 ? (
-              <div className="content small ">{dataItem.answer}</div>
-            ) : null}
-          </div>
-        ))}
+          ))
+        ) : (
+          <div>No data found</div>
+        )}
       </div>
     </div>
   );
