@@ -4,6 +4,7 @@ import Services from "./Services";
 import Testimonials from "./Testimonials";
 import Gallery from "./Gallery";
 import Footer from "./Footer";
+import Accordion from "./Accordion";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Services />
       <Testimonials />
+      <Accordion />
       <Gallery />
       <Footer />
     </div>

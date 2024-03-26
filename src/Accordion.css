@@ -1,0 +1,64 @@
+:root{
+    --barlow-font: "Barlow", sans-serif;
+    --fraunces-font: "Fraunces", serif;
+  }
+  
+.wrapper {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background: linear-gradient( #3DBFFF, #3DBFFF, #90D4C5);
+  }
+  
+  .wrapper button {
+      padding: 10px 20px;
+      background: #FD7465;
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      border: 1px solid black;
+      cursor: pointer;
+  } 
+
+  .wrapper button:hover {
+    padding: 10px 20px;
+    background: #b45449;
+    border: 1px solid black;
+    cursor: pointer;
+}  
+
+  .wrapper button:active {
+    padding: 8px 15px;
+    background: #93352b;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 19px;
+} 
+  
+  
+  .item {
+    background: #FD7465;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+  }
+  
+  .title {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-family: var(--fraunces-font);
+  }
+  
+  .content {
+    color: #ffffff;
+    height: auto;
+    font-family: var(--barlow-font);
+  }
